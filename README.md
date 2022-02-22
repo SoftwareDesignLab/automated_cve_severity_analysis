@@ -19,7 +19,7 @@ List of CISA CVEs used in the case study.
 
 ### Notes
 - The architecture of the CNN model used to evaluate the severuty of CVEs 
-![alt text](https://github.com/SoftwareDesignLab/automated_cve_severity_analysis/blob/main/cnn3.png)
+![alt text](https://github.com/SoftwareDesignLab/automated_cve_severity_analysis/blob/main/cnn.png)
 - To customize the data and/or retrain the model:
   - If you want to update/customize the training data provided in the ARFF(Attribute-Relation File Format), download and install [Weka ML Software Package](https://www.cs.waikato.ac.nz/ml/weka/)
   - To train a new model or deserialize and use existing Convolutional Neural Net model, you can use [Deeplearning4J](https://deeplearning4j.konduit.ai/)
