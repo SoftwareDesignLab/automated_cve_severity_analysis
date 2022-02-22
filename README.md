@@ -7,6 +7,7 @@ A binary Convolutional Neural Network is trained on the descriptions of the CVEs
 - There are 239 total exploited CVEs during 2020, 2021 and 2022 published by CISA [here](https://www.cisa.gov/known-exploited-vulnerabilities-catalog), 
 - Our model labeled 200 of these 239 CVEs as HIGH severity.
 - Overall model accuracy 83.7%.
+- ![alt text](https://github.com/SoftwareDesignLab/automated_cve_severity_analysis/blob/main/chart.png)
 
 ## Data description
 ### severity model data
