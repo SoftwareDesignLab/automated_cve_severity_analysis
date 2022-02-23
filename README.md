@@ -1,4 +1,4 @@
-# A Case Study on CVE Severity & Exploitability
+# Severity Analysis of Exploted CVEs Published by CISA
 There is an increasing trend in the yearly volume of published software vulnerabilities [[1](https://www.techrepublic.com/article/2021-marks-another-record-year-for-security-vulnerabilities/)]. Common Vulnerability and Exposure (CVE) reports published by Vulnerability Management Systems are used to evaluate the severity and exploitability of software vulnerabilities. Security professionals keep track of published software vulnerabilities to make sure their systems are not vulnerable to the recently disclosed CVEs.
 
 This repository provides a case study to analyze CVEs included in CISA's [Known Exploted Vulnerabilities Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog).
