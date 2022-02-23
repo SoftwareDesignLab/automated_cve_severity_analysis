@@ -12,10 +12,12 @@ A binary Convolutional Neural Network is trained on the descriptions of the CVEs
 
 ## Data description
 ### severity model data
-This directory includes the training data (train.arff) and the serialized version of the trained CNN model. The training data includes CVEs between 1999 and 2019 (inclusive). A test data set is also included in case anybody wants to test the model for CVEs published during 2020.
+This directory includes the training data (train.arff) and the serialized version of the trained CNN model. 
+The training data includes CVEs between 1999 and 2019 (inclusive). 
+A test data set(test.arff) is included, to test the model for all CVEs published during 2020.
 
 ### cisa_known_exploited_vulnerabilities.csv
-List of CISA CVEs used in the case study.
+This file includes CISA CVEs (test set) used in the case study.
 > Becase the training data set included CVEs between 1999 and 2019, CVEs before 2020 were excluded from the tests set during the case stuy.
 
 ### More Info
