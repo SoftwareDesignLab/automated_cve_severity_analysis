@@ -4,10 +4,11 @@ There is an increasing trend in the yearly volume of published software vulnerab
 This repository provides a case study to analyze CVEs included in CISA's [Known Exploted Vulnerabilities Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog).
 A binary Convolutional Neural Network is trained on the descriptions of the CVEs published between 1999 and 2019 at [US National Vulnerability Database](https://nvd.nist.gov/) to assess the severity of disclosed software vulnerabilities. The model labels the severity of each CVE either MEDIUM or HIGH depending on its severity and exploitability.
 ## Case Study Result
-- There are 239 total exploited 2020, 2021, and 2022 CVEs published by CISA [here](https://www.cisa.gov/known-exploited-vulnerabilities-catalog), 
-- Our model labeled 200 of these 239 CVEs with a HIGH severity.
-- Overall model accuracy is 83.7%.
+- There are 238 total exploited 2020, 2021, and 2022 CVEs published by CISA [here](https://www.cisa.gov/known-exploited-vulnerabilities-catalog), CVE-2022-22587 was ecluded because it was RESERVED and did not had a valid description.
+- Our model labeled 214 of these 238 CVEs with a HIGH severity.
+- Overall model accuracy is 89.9%.
 - ![alt text](https://github.com/SoftwareDesignLab/automated_cve_severity_analysis/blob/main/chart.png)
+- For the same set of CVEs, we checked [NVD data](https://nvd.nist.gov/vuln/data-feeds) and found that NVD labeled 215 of these CVEs as either HIGH or CRITICAL severity (Accuracy 90%). 
 
 ## Data description
 ### severity model data
