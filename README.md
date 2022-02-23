@@ -18,7 +18,7 @@ This directory includes the training data (train.arff) and the serialized versio
 List of CISA CVEs used in the case study.
 > Becase the training data set included CVEs between 1999 and 2019, CVEs before 2020 were excluded from the tests set during the case stuy.
 
-### Notes
+### More Info
 - The architecture of the CNN model used to evaluate the severuty of CVEs 
 ![alt text](https://github.com/SoftwareDesignLab/automated_cve_severity_analysis/blob/main/cnn.png)
 - To customize the data and/or retrain the model:
