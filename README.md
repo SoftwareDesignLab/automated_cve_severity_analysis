@@ -10,6 +10,7 @@ A binary Convolutional Neural Network is trained on the descriptions of the CVEs
 - ![alt text](https://github.com/SoftwareDesignLab/automated_cve_severity_analysis/blob/main/chart.png)
 - For the same set of CVEs, we checked [NVD data](https://nvd.nist.gov/vuln/data-feeds) and found that NVD labeled 215 of these CVEs as either HIGH or CRITICAL severity (Accuracy 90%). 
 
+
 ## Data description
 ### severity model data
 This directory includes the training data (train.arff) and the serialized version of the trained CNN model. 
@@ -20,7 +21,7 @@ A test data set(test.arff) is included, to test the model for all CVEs published
 This file includes CISA CVEs (test set) used in the case study.
 > Becase the training data set included CVEs between 1999 and 2019, CVEs before 2020 were excluded from the tests set during the case stuy.
 
-### More Info
+### How to Use or Customize the Model?
 - The architecture of the CNN model used to evaluate the severuty of CVEs 
 ![alt text](https://github.com/SoftwareDesignLab/automated_cve_severity_analysis/blob/main/cnn.png)
 - To customize the data and/or retrain the model:
